@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="text-center">
+					<div class="panel panel-default">
+						<div class="panel panel-body">
+							<h1 id="header">Crystal Collector!</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="row">
+		<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel panel-body">
+					<ul><h4>
+					<li>You will be given a random number at the start of the game.</li>
+					<br>
+					<li>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</li>
+					<br>
+					<li>You win the game by matching your total score to the random number, you lose if your total score goes above the random number.</li>
+					<br>
+					<li>The value of each crystal will be hidden from you until you click on it.</li>
+					<br>
+					<li>Each time the game starts, the game will change the value of each crystal along with the random number.</li>
+					</h4></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<h3>Random Number: <span id="randomnumber"></span></h3>
+						
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<h3>Wins: <span id="wins"></span></h3>
+					<h3>Losses: <span id="losses"></span></h3>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<img id="red" class="image-responsive center-block glowing-border" src="assets/images/red.png" alt="red_crystal">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<img id="yellow" class="image-responsive center-block glowing-border image-rounded" src="assets/images/yellow.png" alt="yellow_crystal">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<img id="green" class="image-responsive center-block glowing-border" src="assets/images/green.png" alt="green_crystal">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<img id="blue" class="image-responsive center-block glowing-border" src="assets/images/blue.png" alt="blue_crystal">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="last" class="row">
+		<div class="col-md-5">
+			<div class="panel panel-default">
+				<div class="panel panel-body">
+					<h3>Your Total Score: <span id="totalscore"></span></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Link to jQuery Library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Link to Javascript -->
+  	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

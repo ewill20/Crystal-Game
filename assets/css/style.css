@@ -1,0 +1,90 @@
+body {
+	background-image: url("../images/crystals.jpg");
+	background-size: cover;
+}
+.panel {
+	margin-bottom: 0px;
+	background-image: url("../images/lasers.jpg")
+	
+}
+h1 {
+	color: #d4005a;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 10px;
+}
+.panel-default {
+	margin-top: 10px;
+}
+h3 {
+	color: white;
+	margin-top: 10px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+ul {
+	color: white;
+	text-shadow: -1px 0 #d4005a, 0 1px #d4005a, 1px 0 #d4005a, 0 -1px #d4005a;
+
+}
+#winslosses {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom: 0px;
+
+}
+#randomnumber {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#totalscore {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.container {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#red.glowing-border:hover {
+	outline: none;
+    border-color: #ec1128;
+    box-shadow: 0 0 30px #ec1128;
+    border-radius: 10px;
+}
+#yellow.glowing-border:hover {
+	outline: none;
+    border-color: #e9f321;
+    box-shadow: 0 0 30px #e9f321;
+    border-radius: 10px;
+}
+#blue.glowing-border:hover {
+	outline: none;
+    border-color: #f2f3f8;
+    box-shadow: 0 0 30px #f2f3f8;
+    border-radius: 10px;
+}
+#green.glowing-border:hover {
+	outline: none;
+    border-color: #41e016;
+    box-shadow: 0 0 30px #41e016;
+    border-radius: 10px;
+}
+#last {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
